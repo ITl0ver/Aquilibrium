@@ -1,102 +1,163 @@
-.container {
-
-  display: block;
-  margin: auto;
-  
+main {
+    display: flex;
+    justify-content: center;
 }
+body {
+    background-color: #0D192C ;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
 
-.flex-1 {
-    width: 250px;
-    margin: 10px;
-    background-color: #2E405A;
-    align-self: unset;
-    margin: auto;
-    position: absolute;
-}
+} 
 
-.flex-rect {
-    position: absolute;
-    left: 6.86%;
-    right: 6.86%;
-    top: 4.03%;
-    bottom: 45.3%;
-    background: url(.png);
-    border-radius: 8px;
-
-}
-
-.flex-rectangle {
-    display: block;  
+.rectangle {
+    position: relative;
     width: 350px;
     height: 596px;
-    radius: 15px;
-    color: #15263F;
-    position: absolute;
-    background-color: #15263F;
-    box-shadow: 0px 25px 50px;
     border-radius: 15px;
-    margin: auto;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+    background: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    
 }
 
-.flex-equilibrium {
-    background:  url(image-equilibrium.jpg);
-    background-size:302px;
+.rectcopy {
     width: 302px;
     height: 302px;
-    left: 6.86%;
-    right: 6.86%;
-    top: 4.03%;
-    bottom: 45.3%;
-    }
-
-.flex-avatar {
-    top:531px;
-    width: 33px;
-    height: 33px;
-    left: 24px;
-    background: url(image-avatar.png);
-    background-size: 33px;
-    border-radius: 100% ;
-    border: 1px solid #FFFFFF;
-    box-sizing: border-box;
+    background: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+    background-image:url(./equilibrium.jpg);
+    background-size: contain;
+    margin: 24px;
 }
 
-.flex-line {
+.eqtext {
+    display: block;
+    margin: 24px; 
+}
+
+.eqtext h1{
+    width: 302px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.eqtext h2 {
+    width: 302px;
+    height: 52px;
+    color: #8BACD9;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+
+.inline {
+    display: flex;
+    height: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+
+
+}
+
+.inline img {
+    width: 11px;
+    height: 20.2px;
+    background-image: url(./ethereum.svg);
+   
+}
+
+.inline a {
+    
+    width: 75px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FFF8;
+    margin-left: 6.49px;
+} 
+
+.inline picture {
+
+    width: 13.33px;
+    height: 13.33px;
+    background-image: url(./clock.svg);
+    background-size: contain;
+}
+
+.inline b  {
+    
+    width: 73px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+}
+
+.line {
     width: 302px;
     height: 1px;
-    left: 6.86%;
-    right: 6.86%;
-    top: 86.24%;
-    bottom: 13.59%;
-    color:  #2E405A;
-}
-
-h1 {
-height: 28px;
-top: 350px;
-left: 24px;
-position: absolute;
-left: 6.86%;
-right: 6.86%;
-top: 58.72%;
-bottom: 36.58%;
-font-family: ;
-
-color: #FFFFFF;
-
-
-
-
+    background: #2E405A;
+    margin-left: 24px;
 }
 
 
+.lastline {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 33px;
+    margin-left: 24px;
+    margin-top: 16px;
 
-
-body {
-  
-    background-color:#0D192C;
 }
+
+.lastline img {
+    width: 33px;
+    height: 33px;
+    border-radius: 100%;
+    border: 1px solid white;
+    background-image: url(./avatar.png);
+    background-size: contain;
+    margin-right: 16px;
+}
+
+.lastline a {
+    width: 81px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+    margin-right: 5px;
+}
+
+.lastline b {
+    width: 93px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
