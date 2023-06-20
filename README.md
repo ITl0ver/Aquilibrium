@@ -1,2 +1,2 @@
 # Project Aquilibrium
-# Bitcamp Web-101 homework, write HTML/CSS from figma design
+## Bitcamp Web-101 homework, build HTML/CSS from figma design
